@@ -1,0 +1,47 @@
+{
+    "japanese": [
+      {
+        "sentence": "私は ___ が好きです。",
+        "type": "noun"
+      },
+      {
+        "sentence": "毎朝 ___ を食べます。",
+        "type": "noun"
+      },
+      {
+        "sentence": "この ___ はとても高いです。",
+        "type": "noun"
+      },
+      {
+        "sentence": "___ が走っています。",
+        "type": "noun"
+      },
+      {
+        "sentence": "私は ___ を見ました。",
+        "type": "noun"
+      }
+    ],
+    "chinese": [
+      {
+        "sentence": "我喜欢 ___。",
+        "type": "noun"
+      },
+      {
+        "sentence": "我每天早上吃 ___。",
+        "type": "noun"
+      },
+      {
+        "sentence": "这只 ___ 很可爱。",
+        "type": "noun"
+      },
+      {
+        "sentence": "她在看 ___。",
+        "type": "noun"
+      },
+      {
+        "sentence": "我想买一个新的 ___。",
+        "type": "noun"
+      }
+    ]
+  }
+  

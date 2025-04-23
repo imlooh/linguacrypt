@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  font-family: 'Segoe UI', sans-serif;
+  color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.output-box {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #2e2e2e;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.input-row {
+  display: flex;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+  background-color: #3a3a3a;
+  color: #f5f5f5;
+}
+
+input[type="text"]::placeholder {
+  color: #999;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Cards */
+
+.card-hand {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 50px 0;
+  overflow-x: none;
+  padding-bottom: 10px;
+}
+
+/* Style the card like a playing card */
+.card-output {
+  width: 140px;
+  min-height: 200px;
+  flex-shrink: 0;
+  background: #2d2d2d;
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+/* Word and meaning centered for card look */
+.card-output .word {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffd966;
+}
+
+.card-output .meaning {
+  font-size: 1rem;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.card-output .example {
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #8ab4f8;
+}
+
+.card-output:hover {
+  transform: scale(1.1) translateY(-5px);
+  z-index: 2;
+}
+
+.card-output .word {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffd966;
+}
+
+.card-output .meaning {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.card-output .example {
+  font-style: italic;
+  margin-top: 8px;
+  color: #8ab4f8;
+}
+
+.card-output .hover-info {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #1f1f1f;
+  border: 1px solid #555;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #ccc;
+  white-space: nowrap;
+  margin-top: 5px;
+  z-index: 10;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-output:hover .hover-info {
+  display: block;
+}
+
+.card-output.noun {
+  border-color: #3b82f6; /* Blue */
+}
+
+.card-output.verb {
+  border-color: #ef4444; /* Red */
+}
+
+.card-output.adjective {
+  border-color: #facc15; /* Yellow */
+}
+
+.card-output.adverb,
+.card-output.other {
+  border-color: #a855f7; /* Purple */
+}
+
+/* Noun Hover Glow */
+.card-output.noun:hover {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5); /* Blue glow */
+}
+
+/* Verb Hover Glow */
+.card-output.verb:hover {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.5); /* Red glow */
+}
+
+/* Adjective Hover Glow */
+.card-output.adjective:hover {
+  box-shadow: 0 0 15px rgba(250, 204, 21, 0.5); /* Yellow glow */
+}
+
+/* Adverb/Other Hover Glow */
+.card-output.adverb:hover,
+.card-output.other:hover {
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.5); /* Purple glow */
+}

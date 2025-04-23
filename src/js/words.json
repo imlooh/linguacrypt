@@ -1,0 +1,287 @@
+{
+    "japanese": [
+      {
+        "word": "犬",
+        "reading": "いぬ",
+        "ipa": "inu",
+        "meaning": "dog",
+        "theme": "animals",
+        "examples": [
+          {
+            "sentence": "犬が走っています。",
+            "translation": "The dog is running."
+          }
+        ],
+        "type": "noun"
+      },
+      {
+        "word": "猫",
+        "reading": "ねこ",
+        "ipa": "neko",
+        "meaning": "cat",
+        "theme": "animals",
+        "examples": [
+          {
+            "sentence": "猫は静かです。",
+            "translation": "The cat is quiet."
+          }
+        ],
+        "type": "noun"
+      },
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "ipa": "tabeɾu",
+        "meaning": "to eat",
+        "theme": "daily life",
+        "examples": [
+          {
+            "sentence": "ご飯を食べる。",
+            "translation": "I eat rice."
+          }
+        ],
+        "type": "verb"
+      },
+      {
+        "word": "行く",
+        "reading": "いく",
+        "ipa": "iku",
+        "meaning": "to go",
+        "theme": "daily life",
+        "examples": [
+          {
+            "sentence": "学校へ行く。",
+            "translation": "I go to school."
+          }
+        ],
+        "type": "verb"
+      },
+      {
+        "word": "きれい",
+        "reading": "きれい",
+        "ipa": "kiɾeː",
+        "meaning": "beautiful/clean",
+        "theme": "descriptions",
+        "examples": [
+          {
+            "sentence": "きれいな花ですね。",
+            "translation": "That’s a beautiful flower, isn’t it?"
+          }
+        ],
+        "type": "adjective"
+      },
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "ipa": "t͡ɕiːsa.i",
+        "meaning": "small",
+        "theme": "descriptions",
+        "examples": [
+          {
+            "sentence": "この本は小さいです。",
+            "translation": "This book is small."
+          }
+        ],
+        "type": "adjective"
+      },
+      {
+        "word": "水",
+        "reading": "みず",
+        "ipa": "mizu",
+        "meaning": "water",
+        "theme": "food",
+        "examples": [
+          {
+            "sentence": "水をください。",
+            "translation": "Please give me water."
+          }
+        ],
+        "type": "noun"
+      },
+      {
+        "word": "車",
+        "reading": "くるま",
+        "ipa": "kuɾuma",
+        "meaning": "car",
+        "theme": "objects",
+        "examples": [
+          {
+            "sentence": "車で行きます。",
+            "translation": "I go by car."
+          }
+        ],
+        "type": "noun"
+      },
+      {
+        "word": "見る",
+        "reading": "みる",
+        "ipa": "miɾu",
+        "meaning": "to see/watch",
+        "theme": "daily life",
+        "examples": [
+          {
+            "sentence": "映画を見るつもりだ。",
+            "translation": "I plan to watch a movie."
+          }
+        ],
+        "type": "verb"
+      },
+      {
+        "word": "好き",
+        "reading": "すき",
+        "ipa": "sɯ̥ki",
+        "meaning": "to like",
+        "theme": "emotions",
+        "examples": [
+          {
+            "sentence": "犬が好きです。",
+            "translation": "I like dogs."
+          }
+        ],
+        "type": "adjective"
+      }
+    ],
+    "chinese": [
+      {
+        "word": "狗",
+        "pinyin": "gǒu",
+        "ipa": "kou˨˩˦",
+        "meaning": "dog",
+        "theme": "animals",
+        "examples": [
+          {
+            "sentence": "那只狗很可爱。",
+            "translation": "That dog is very cute."
+          }
+        ],
+        "type": "noun"
+      },
+      {
+        "word": "猫",
+        "pinyin": "māo",
+        "ipa": "maʊ̯˥",
+        "meaning": "cat",
+        "theme": "animals",
+        "examples": [
+          {
+            "sentence": "我有一只猫。",
+            "translation": "I have a cat."
+          }
+        ],
+        "type": "noun"
+      },
+      {
+        "word": "吃",
+        "pinyin": "chī",
+        "ipa": "ʈʂʰɻ̩˥",
+        "meaning": "to eat",
+        "theme": "daily life",
+        "examples": [
+          {
+            "sentence": "我喜欢吃米饭。",
+            "translation": "I like to eat rice."
+          }
+        ],
+        "type": "verb"
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "ipa": "tɕʰy˥˩",
+        "meaning": "to go",
+        "theme": "daily life",
+        "examples": [
+          {
+            "sentence": "我们去学校。",
+            "translation": "We go to school."
+          }
+        ],
+        "type": "verb"
+      },
+      {
+        "word": "漂亮",
+        "pinyin": "piàoliang",
+        "ipa": "pʰi̯ɑʊ̯˥˩ ljaŋ˙",
+        "meaning": "pretty",
+        "theme": "descriptions",
+        "examples": [
+          {
+            "sentence": "她很漂亮。",
+            "translation": "She is pretty."
+          }
+        ],
+        "type": "adjective"
+      },
+      {
+        "word": "小",
+        "pinyin": "xiǎo",
+        "ipa": "ɕjɑʊ̯˨˩˦",
+        "meaning": "small",
+        "theme": "descriptions",
+        "examples": [
+          {
+            "sentence": "这只猫很小。",
+            "translation": "This cat is very small."
+          }
+        ],
+        "type": "adjective"
+      },
+      {
+        "word": "水",
+        "pinyin": "shuǐ",
+        "ipa": "ʂweɪ̯˨˩˦",
+        "meaning": "water",
+        "theme": "food",
+        "examples": [
+          {
+            "sentence": "请给我一杯水。",
+            "translation": "Please give me a glass of water."
+          }
+        ],
+        "type": "noun"
+      },
+      {
+        "word": "车",
+        "pinyin": "chē",
+        "ipa": "ʈʂʰɤ˥",
+        "meaning": "car",
+        "theme": "objects",
+        "examples": [
+          {
+            "sentence": "我们坐车去。",
+            "translation": "We take a car to go."
+          }
+        ],
+        "type": "noun"
+      },
+      {
+        "word": "看",
+        "pinyin": "kàn",
+        "ipa": "kʰan˥˩",
+        "meaning": "to see/watch",
+        "theme": "daily life",
+        "examples": [
+          {
+            "sentence": "我在看电影。",
+            "translation": "I'm watching a movie."
+          }
+        ],
+        "type": "verb"
+      },
+      {
+        "word": "喜欢",
+        "pinyin": "xǐhuān",
+        "ipa": "ɕi˨˩˦ xwan˥",
+        "meaning": "to like",
+        "theme": "emotions",
+        "examples": [
+          {
+            "sentence": "我喜欢猫。",
+            "translation": "I like cats."
+          }
+        ],
+        "type": "verb"
+      }
+    ]
+  }
+  

@@ -1,0 +1,24 @@
+{
+    "japanese": {
+      "grammar": [
+        {
+          "type": "particle",
+          "question": "Which particle connects these words?",
+          "prompt": "@p1__@n1が好きです。",
+          "choices": ["が", "を", "に", "と"],
+          "answer": "は"
+        }
+      ]
+    },
+    "chinese": {
+      "grammar": [
+        {
+          "type": "particle",
+          "question": "How do you negate this sentence?",
+          "prompt": "@p1__喜欢@n1。",
+          "choices": ["部", "不", "木", "米"],
+          "answer": "不"
+        }
+      ]
+    }
+  }

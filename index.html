@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Linguacrypt</title>
+  <script src="src/js/jquery.js"></script>
+  <script src="src/js/game.js"></script>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+  <div class="container">
+      <!-- SETTINGS PANEL: appears at the top when the app loads -->
+        <div class="settings-panel">
+            <h2>Start a New Run</h2>
+
+            <label for="languageSelect">Choose your language:</label>
+            <select id="languageSelect">
+            <option value="random">🎲 Random</option>
+            <option value="japanese">🇯🇵 Japanese</option>
+            <option value="chinese">🇨🇳 Chinese</option>
+            </select>
+
+            <label for="difficultySelect">Select difficulty:</label>
+            <select id="difficultySelect">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+            </select>
+
+            <label><input type="checkbox" id="ignoreSeen" /> Ignore previously seen words</label>
+            <label><input type="checkbox" id="mysteryMode" /> Mystery language mode</label>
+
+            <button id="startRun">Begin Linguacrypt Run</button>
+        </div>
+    <div id="output" class="output-box">
+    </div>
+    <div class="card-hand" id="playerHand">
+        <!-- Cards will be injected here -->
+    </div>
+    <!-- <div class="input-row">
+      <input type="text" id="userInput" placeholder="Type your response..." />
+      <button id="submitBtn">Submit</button>
+    </div> -->
+  </div>
+  
+</body>
+</html>
